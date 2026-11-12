@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530 600" role="img" aria-label="Abstract skin-inspired editorial artwork">
+<defs>
+ <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c8d1c2"/><stop offset="1" stop-color="#889d89"/></linearGradient>
+ <linearGradient id="skin" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#f4d5bb"/><stop offset=".43" stop-color="#d6a58c"/><stop offset="1" stop-color="#955f52"/></linearGradient>
+ <linearGradient id="skin2" x1="0" y1="0" x2="1" y2=".4"><stop stop-color="#e9bfa9"/><stop offset=".7" stop-color="#a16c5e"/><stop offset="1" stop-color="#74463f"/></linearGradient>
+ <radialGradient id="light"><stop stop-color="#fff0dc" stop-opacity=".75"/><stop offset="1" stop-color="#fff0dc" stop-opacity="0"/></radialGradient>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".4" numOctaves="3" seed="12" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".09"/></feComponentTransfer></filter>
+ <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+</defs>
+<rect width="530" height="600" fill="url(#b)"/>
+<circle cx="400" cy="90" r="260" fill="#edf0dc" opacity=".55" filter="url(#blur)"/>
+<path d="M612 10C492 39 409 135 411 255c3 97 100 170 117 345H203C242 462 191 369 168 304 129 192 197 54 350-32Z" fill="url(#skin)"/>
+<path d="M546 164C412 134 342 203 329 299c-14 107 78 170 64 320H90C130 507 74 390 87 281 102 132 231 82 379 63Z" fill="url(#skin2)" opacity=".86"/>
+<path d="M-55 480C90 340 176 346 234 415c46 55 16 128 42 218H-55Z" fill="#d5ae95"/>
+<path d="M-23 365C69 294 143 245 221 250" fill="none" stroke="#f8d7c0" stroke-width="3" opacity=".52"/>
+<path d="M102 539c41-70 91-90 152-96" fill="none" stroke="#f9ddc9" stroke-width="2" opacity=".5"/>
+<circle cx="332" cy="265" r="177" fill="url(#light)"/>
+<g fill="#9d6a60" opacity=".34"><circle cx="256" cy="276" r="3"/><circle cx="272" cy="294" r="2"/><circle cx="288" cy="282" r="2.8"/><circle cx="301" cy="315" r="2"/><circle cx="246" cy="311" r="1.6"/><circle cx="317" cy="280" r="1.7"/><circle cx="280" cy="334" r="2.5"/></g>
+<path d="M455 0v600" stroke="#ffffff" stroke-opacity=".22" stroke-width="1"/>
+<rect width="530" height="600" filter="url(#grain)" opacity=".65"/>
+</svg>
